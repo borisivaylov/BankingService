@@ -11,11 +11,11 @@ import lombok.*;
 @AllArgsConstructor
 public class CreateHolderRequest implements OperationInput {
 
-    @JsonProperty("name:")
+    @JsonProperty("name")
     private String name;
-    @JsonProperty("phoneNumber:")
+    @JsonProperty("phoneNumber")
     private String phoneNumber;
-    @JsonProperty("address:")
+    @JsonProperty("address")
     private String address;
 
 }

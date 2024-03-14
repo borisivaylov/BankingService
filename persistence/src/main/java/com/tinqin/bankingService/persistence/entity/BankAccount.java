@@ -17,7 +17,8 @@ public class BankAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID bankAccountId;
-    private String IBAN;
     private UUID holderId;
+    private String IBAN;
+    private String currency;
     private double balance;
 }

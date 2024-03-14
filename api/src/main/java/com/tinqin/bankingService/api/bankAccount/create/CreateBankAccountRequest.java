@@ -15,6 +15,8 @@ public class CreateBankAccountRequest implements OperationInput {
 
     @JsonProperty("holderId")
     private UUID holderId;
+    @JsonProperty("IBAN")
+    private String IBAN;
     @JsonProperty ("Currency")
     private String currency;   // Може да се използва и enum,
                                 // ще влезе в превалутирането при преводи

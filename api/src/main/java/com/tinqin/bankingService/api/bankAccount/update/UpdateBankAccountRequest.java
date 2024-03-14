@@ -17,4 +17,5 @@ public class UpdateBankAccountRequest implements OperationInput {
     private UUID BankAccountId;
     @JsonProperty("holderId")
     private UUID holderId;
+
 }

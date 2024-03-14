@@ -29,6 +29,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.tinqin.bankingService.api</groupId>
+            <artifactId>api</artifactId>
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 
 </project>

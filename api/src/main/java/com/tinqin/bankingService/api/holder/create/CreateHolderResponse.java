@@ -6,7 +6,6 @@ import com.tinqin.bankingService.api.base.OperationResult;
 import lombok.*;
 
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 
 @Getter
